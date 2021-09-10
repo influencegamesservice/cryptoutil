@@ -10,5 +10,5 @@ def get_option():
 
 if __name__ == "__main__":
     args = get_option()
-    plain_text = enutil.Encryption().load_encryption2plaintext(args.keypath, args.encryptionpath)
+    plain_text = encryption_utility.Encryption().load_encryption2plaintext(args.keypath, args.encryptionpath)
     print(plain_text)

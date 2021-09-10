@@ -11,4 +11,4 @@ def get_option():
 
 if __name__ == "__main__":
     args = get_option()
-    enutil.Encryption().create_encryptionAndkey(args.plainstring, args.savekeypath, args.saveencryptionpath)
+    encryption_utility.Encryption().create_encryptionAndkey(args.plainstring, args.savekeypath, args.saveencryptionpath)
