@@ -1,1 +1,1 @@
-print("from mainmdule")
+print("from submdule")
